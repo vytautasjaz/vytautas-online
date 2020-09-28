@@ -1,0 +1,25 @@
+@import '../../style/variables.scss';
+
+.button {
+  min-width: 150px;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.red {
+  background-color: $red;
+}
+
+.width200 {
+    width: 200px;
+  }
+  
+.width300 {
+  width: 300px;
+}
+
+a {
+    text-decoration: none;
+}
