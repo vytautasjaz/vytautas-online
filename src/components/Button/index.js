@@ -1,12 +1,13 @@
 import React from 'react';
 import './index.scss';
 
-function Button({ color, children, width, href }) {
+function Button({ color, children, href, width, ...props }) {
+  const Tag = href ? 'a' : 'button';
   return (
     <>
-      <a href={href} className={`button  ${color} ${width}`}>
+      <Tag href={href} className={`button  ${color} ${width}`} {...props}>
         {children}
-      </a>
+      </Tag>
     </>
   );
 }

@@ -1,0 +1,59 @@
+@import '../../style/variables.scss';
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &--input {
+    &--box {
+      position: relative;
+      margin: 0 0 35px 0;
+      input,
+      textarea {
+        width: 100%;
+        padding: 5px 0;
+        font-size: 18px;
+        font-weight: 300;
+        border: none;
+        border-bottom: 1px solid $grey;
+        outline: none;
+      }
+      textarea {
+        resize: vertical;
+        min-height: 120px;
+      }
+      span {
+        position: absolute;
+        left: 0;
+        padding: 5px 0;
+        font-size: 18px;
+        font-weight: 300;
+        transition: 0.5s;
+        pointer-events: none;
+      }
+      input:focus ~ span,
+      textarea:focus ~ span,
+      input:valid ~ span,
+      textarea:valid ~ span {
+        transform: translateY(-20px);
+        font-size: 12px;
+        color: $red;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.w50 {
+  width: 47%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+@media only screen and (max-width: $max-width-1) {
+    .w50 {
+        width: 100%;
+      }
+}

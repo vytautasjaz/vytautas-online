@@ -8,28 +8,39 @@ function Sidebar() {
       <div className='sidebar--menu'>
         <ul>
           <li>
-            <a href='about:blank'>Biography</a>
+            <a href='#about'>About</a>
           </li>
           <li>
-            <a href='about:blank'>Skills</a>
+            <a href='#skills'>Skills</a>
           </li>
           <li>
-            <a href='about:blank'>Education</a>
+            <a href='#education'>Education</a>
           </li>
           <li>
-            <a href='about:blank'>Experience</a>
+            <a href='#experience'>Experience</a>
           </li>
           <li>
-            <a href='about:blank'>Contact</a>
+            <a href='#contact'>Contact me</a>
           </li>
-           {/* <li> <LanguageSelector />  </li>*/}
+          {/* <li> <LanguageSelector />  </li>*/}
         </ul>
       </div>
       <div className='sidebar--social'>
-        <img src='../../assets/images/linkedin.svg' alt='Linkedin' />
-        <img src='../../assets/images/github.svg' alt='Github' />
-        <img src='../../assets/images/facebook.svg' alt='Facebook' />
-        <img src='../../assets/images/instagram.svg' alt='Instagram' />
+        <a
+          href='https://www.linkedin.com/in/vytautasjazepcikas/'
+          target='blank'
+        >
+          <img src='../../assets/images/linkedin.svg' alt='Linkedin' />
+        </a>
+        <a href='https://github.com/vytautasjaz' target='blank'>
+          <img src='../../assets/images/github.svg' alt='Github' />
+        </a>
+        <a href='https://www.facebook.com/vytautas.jazepcikas' target='blank'>
+          <img src='../../assets/images/facebook.svg' alt='Facebook' />
+        </a>
+        <a href='https://www.instagram.com/vytautasjaz/' target='blank'>
+          <img src='../../assets/images/instagram.svg' alt='Instagram' />
+        </a>
       </div>
     </div>
   );
