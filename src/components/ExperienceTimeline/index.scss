@@ -1,12 +1,6 @@
 @import '../../style/variables.scss';
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.timeline ul li {
+.exp--timeline ul li {
   list-style-type: none;
   position: relative;
   width: 3px;
@@ -14,7 +8,7 @@
   background: $red;
 }
 
-.timeline ul li::after {
+.exp--timeline ul li::after {
   content: '';
   position: absolute;
   left: 50%;
@@ -26,7 +20,7 @@
   background: inherit;
 }
 
-.timeline ul li div {
+.exp--timeline ul li div {
   position: relative;
   width: 800px;
   padding: 15px;
@@ -34,7 +28,7 @@
   left: 50px;
 }
 
-.timeline ul li div::before {
+.exp--timeline ul li div::before {
   content: '';
   position: absolute;
   top: 5px;
@@ -45,7 +39,7 @@
   border-width: 8px 16px 8px 0;
   border-color: transparent $light transparent transparent;
 }
-.experience {
+.exp--experience {
   display: flex;
   flex-direction: column;
   h2 {
@@ -68,19 +62,19 @@
 }
 
 @media only screen and (max-width: $max-width) {
-  .timeline ul li div {
+  .exp--timeline ul li div {
     width: 600px;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .timeline ul li div {
+  .exp--timeline ul li div {
     width: 400px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .timeline ul li div {
-    width: 300px;
+  .exp--timeline ul li div {
+    width: 280px;
   }
 }

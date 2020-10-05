@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.scss';
 import Sidebar from './components/Sidebar';
-import MainContent from './components/MainContent'
+import MainContent from './components/MainContent';
+import SimpleReactLightbox from 'simple-react-lightbox';
 
 function App() {
   return (
     <div className='App'>
-      <Sidebar />
-      <MainContent />
+      <SimpleReactLightbox>
+        <Sidebar />
+        <MainContent />
+      </SimpleReactLightbox>
     </div>
   );
 }

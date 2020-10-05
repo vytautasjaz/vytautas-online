@@ -4,10 +4,10 @@ import './index.scss';
 function ExperienceTimeline() {
   return (
     <>
-      <section className='timeline'>
+      <section className='exp--timeline'>
         <ul>
           <li>
-            <div className='experience'>
+            <div className='exp--experience'>
               <h2>UAB "Archimes"</h2>
               <h3>
                 Architect <time> (2013.10 - 2020.08)</time>
@@ -28,7 +28,7 @@ function ExperienceTimeline() {
             </div>
           </li>
           <li>
-            <div className='experience'>
+            <div className='exp--experience'>
               <h2>IĮ "Atkulos projektai"</h2>
               <h3>
                 Architect <time> (2011.08 - 2013.09)</time>
@@ -45,7 +45,7 @@ function ExperienceTimeline() {
             </div>
           </li>
           <li>
-            <div className='experience'>
+            <div className='exp--experience'>
               <h2>VGTU Urban Laboratory</h2>
               <h3>
                 <time> 2011.07</time>

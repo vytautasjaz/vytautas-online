@@ -27,7 +27,7 @@ hr {
     padding: 20px 100px;
     h1 {
       display: inline-block;
-      padding-bottom: 20px;
+      padding-bottom: 10px;
       border-bottom: 1.5px solid $red;
       margin-bottom: 20px;
     }
@@ -107,6 +107,22 @@ hr {
   height: 1px;
   border-bottom: 1px solid $red;
   margin-bottom: 15px;
+}
+
+strong {
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: rgb(143, 143, 143);
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-height: 700px) {

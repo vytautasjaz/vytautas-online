@@ -6,6 +6,11 @@ function Sidebar() {
   return (
     <div className='sidebar'>
       <div className='sidebar--menu'>
+      {/* <div class='lines'>
+        <div class='line'></div>
+        <div class='line'></div>
+        <div class='line'></div>
+      </div> */}
         <ul>
           <li>
             <a href='#about'>About</a>
@@ -18,6 +23,9 @@ function Sidebar() {
           </li>
           <li>
             <a href='#experience'>Experience</a>
+          </li>
+          <li>
+            <a href='#portfolio'>Portfolio</a>
           </li>
           <li>
             <a href='#contact'>Contact me</a>
