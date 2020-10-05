@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vytautas-online/precache-manifest.43bfd10a6fffa7e7e3f9addd7d0cd626.js"
+  "/vytautas-online/precache-manifest.8a3dc7b2f9b63386f5c20fbd20974e1b.js"
 );
 
 self.addEventListener('message', (event) => {
