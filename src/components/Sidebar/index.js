@@ -6,11 +6,11 @@ function Sidebar() {
   return (
     <div className='sidebar'>
       <div className='sidebar--menu'>
-      {/* <div class='lines'>
-        <div class='line'></div>
-        <div class='line'></div>
-        <div class='line'></div>
-      </div> */}
+        <div class='lines'>
+          <div class='line'></div>
+          <div class='line'></div>
+          <div class='line'></div>
+        </div>
         <ul>
           <li>
             <a href='#about'>About</a>
