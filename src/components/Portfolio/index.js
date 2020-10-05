@@ -5,6 +5,16 @@ import { SRLWrapper } from 'simple-react-lightbox';
 function Portfolio() {
   return (
     <div className='portfolio--container'>
+      <img
+        className='portfolio--image'
+        src='./images/profile.png'
+        alt='Vytautas Jazpcikas CV - Mobile page'
+      />
+      <img
+        className='portfolio--image'
+        src='../../assets/profile.png'
+        alt='Vytautas Jazpcikas CV - Mobile page'
+      />
       <SRLWrapper>
         <h2>Programming</h2>
 

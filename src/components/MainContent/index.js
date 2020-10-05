@@ -10,15 +10,15 @@ import Portfolio from '../Portfolio';
 function MainContent() {
   return (
     <div className='main--content'>
+    
       <img
         className='portfolio--icon'
         src='../../assets/images/icons/javascript_icon.svg'
         alt='Javascript'
       />
       <img
-        className='portfolio--icon'
         src='../../assets/images/calculator1.jpg'
-        alt='Javascript'
+        alt='Calc'
       />
       <div className='main--hero'>
         <h4>Hi, I am</h4>
