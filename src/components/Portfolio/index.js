@@ -161,7 +161,7 @@ function Portfolio() {
             <div>
               <img
                 className='portfolio--icon'
-                src='/icons/javascript_icon.svg'
+                src='../../assets/images/icons/javascript_icon.svg'
                 alt='Javascript'
               />
               <img
