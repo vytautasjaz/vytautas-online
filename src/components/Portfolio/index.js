@@ -1,13 +1,12 @@
 import React from 'react';
 import './index.scss';
-import { SRLWrapper } from 'simple-react-lightbox';
+// import { SRLWrapper } from 'simple-react-lightbox';
 
 function Portfolio() {
   return (
     <div className='portfolio--container'>
-      <SRLWrapper>
+      {/* <SRLWrapper> */}
         <h2>Programming</h2>
-
         <div className='portfolio--item'>
           <div className='portfolio--item--text'>
             <div>
@@ -397,7 +396,7 @@ function Portfolio() {
           src='../../assets/images/Projects/large/run.jpg'
           alt='Triathlon - Run'
         />
-      </SRLWrapper>
+      {/* </SRLWrapper> */}
     </div>
   );
 }
