@@ -10,16 +10,6 @@ import Portfolio from '../Portfolio';
 function MainContent() {
   return (
     <div className='main--content'>
-    
-      <img
-        className='portfolio--icon'
-        src='../../assets/images/icons/javascript_icon.svg'
-        alt='Javascript'
-      />
-      <img
-        src='../../assets/images/calculator1.jpg'
-        alt='Calc'
-      />
       <div className='main--hero'>
         <h4>Hi, I am</h4>
         <h1>Vytautas</h1>
