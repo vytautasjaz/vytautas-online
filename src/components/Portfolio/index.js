@@ -5,16 +5,6 @@ import { SRLWrapper } from 'simple-react-lightbox';
 function Portfolio() {
   return (
     <div className='portfolio--container'>
-      <img
-        className='portfolio--image'
-        src='./images/profile.png'
-        alt='Vytautas Jazpcikas CV - Mobile page'
-      />
-      <img
-        className='portfolio--image'
-        src='../../assets/profile.png'
-        alt='Vytautas Jazpcikas CV - Mobile page'
-      />
       <SRLWrapper>
         <h2>Programming</h2>
 
@@ -57,17 +47,17 @@ function Portfolio() {
             <div className='portfolio--item--images'>
               <img
                 className='portfolio--image'
-                src='../../assets/images/projects/felix/felix_main.jpg'
+                src='../../assets/images/Projects/felix/felix_main.jpg'
                 alt='FELIX - Main page'
               />
               <img
                 className='portfolio--image'
-                src='../../assets/images/projects/felix/felix_movie.jpg'
+                src='../../assets/images/Projects/felix/felix_movie.jpg'
                 alt='FELIX - Movie page'
               />
               <img
                 className='portfolio--image'
-                src='../../assets/images/projects/felix/felix_login.jpg'
+                src='../../assets/images/Projects/felix/felix_login.jpg'
                 alt='FELIX - Login page'
               />
             </div>
@@ -125,22 +115,22 @@ function Portfolio() {
             <div className='portfolio--item--images'>
               <img
                 className='portfolio--image'
-                src='../../assets/images/projects/vinted/vinted_1.jpg'
+                src='../../assets/images/Projects/vinted/vinted_1.jpg'
                 alt='VintEDITED - Main page'
               />
               <img
                 className='portfolio--image'
-                src='../../assets/images/projects/vinted/vinted_2.jpg'
+                src='../../assets/images/Projects/vinted/vinted_2.jpg'
                 alt='VintEDITED - Product page'
               />
               <img
                 className='portfolio--image'
-                src='../../assets/images/projects/vinted/vinted_3.jpg'
+                src='../../assets/images/Projects/vinted/vinted_3.jpg'
                 alt='VintEDITED - Filter page'
               />
               <img
                 className='portfolio--image'
-                src='../../assets/images/projects/vinted/vinted_4.jpg'
+                src='../../assets/images/Projects/vinted/vinted_4.jpg'
                 alt='VintEDITED - Cart'
               />
             </div>
@@ -196,17 +186,17 @@ function Portfolio() {
             <div className='portfolio--item--images'>
               <img
                 className='portfolio--image'
-                src='../../assets/images/projects/vytautas-online/vytautas_web.jpg'
+                src='../../assets/images/Projects/vytautas-online/vytautas_web.jpg'
                 alt='Vytautas Jazpcikas CV - Web version'
               />
               <img
                 className='portfolio--image'
-                src='../../assets/images/projects/vytautas-online/vytautas_tablet.jpg'
+                src='../../assets/images/Projects/vytautas-online/vytautas_tablet.jpg'
                 alt='Vytautas Jazpcikas CV - Mobile page'
               />
               <img
                 className='portfolio--image'
-                src='../../assets/images/projects/vytautas-online/vytautas_mobile.jpg'
+                src='../../assets/images/Projects/vytautas-online/vytautas_mobile.jpg'
                 alt='Vytautas Jazpcikas CV - Mobile page'
               />
             </div>
@@ -258,7 +248,7 @@ function Portfolio() {
             <div className='portfolio--item--images'>
               <img
                 className='portfolio--image'
-                src='../../assets/images/projects/triathlon_counter.jpg'
+                src='../../assets/images/Projects/triathlon_counter.jpg'
                 alt='Triathlon calculator'
               />
             </div>
@@ -298,7 +288,7 @@ function Portfolio() {
             <div className='portfolio--item--images'>
               <img
                 className='portfolio--image'
-                src='../../assets/images/projects/calculator.jpg'
+                src='../../assets/images/Projects/calculator.jpg'
                 alt='Calculator'
               />
             </div>
@@ -321,17 +311,17 @@ function Portfolio() {
 
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/problematika_large.jpg'
+          src='../../assets/images/Projects/large/problematika_large.jpg'
           alt='Problematika headquarters'
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/problematika_1_large.jpg'
+          src='../../assets/images/Projects/large/problematika_1_large.jpg'
           alt='Problematika headquarters'
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/problematika_int_1_large.jpg'
+          src='../../assets/images/Projects/large/problematika_int_1_large.jpg'
           alt='Problematika headquarters interior'
         />
         <img
@@ -341,37 +331,37 @@ function Portfolio() {
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/cili_1_large.jpg'
+          src='../../assets/images/Projects/large/cili_1_large.jpg'
           alt='ČILI PIZZA Akropolis Šiauliau'
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/cili_2_large.jpg'
+          src='../../assets/images/Projects/large/cili_2_large.jpg'
           alt='ČILI PIZZA Akropolis Šiauliau'
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/jeruzale_large.jpg'
+          src='../../assets/images/Projects/large/jeruzale_large.jpg'
           alt='Oddice buildings in Jeruzale'
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/tampere1_large.jpg'
+          src='../../assets/images/Projects/large/tampere1_large.jpg'
           alt='Tampere art museum'
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/dance_large.jpg'
+          src='../../assets/images/Projects/large/dance_large.jpg'
           alt='Dance theater'
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/kazakhstan_large.jpg'
+          src='../../assets/images/Projects/large/kazakhstan_large.jpg'
           alt='Kazakhstan development'
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/urban_stripes_large.jpg'
+          src='../../assets/images/Projects/large/urban_stripes_large.jpg'
           alt='Urban stripes'
         />
 
@@ -379,32 +369,32 @@ function Portfolio() {
 
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/flamingo_large.jpg'
+          src='../../assets/images/Projects/large/flamingo_large.jpg'
           alt='Flamingo'
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/whaling_large.jpg'
+          src='../../assets/images/Projects/large/whaling_large.jpg'
           alt='Whaling'
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/sapiegine_large.jpg'
+          src='../../assets/images/Projects/large/sapiegine_large.jpg'
           alt='Sapiegine'
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/swim.jpg'
+          src='../../assets/images/Projects/large/swim.jpg'
           alt='Triathlon - Swim'
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/bike.jpg'
+          src='../../assets/images/Projects/large/bike.jpg'
           alt='Triathlon - Bike'
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/run.jpg'
+          src='../../assets/images/Projects/large/run.jpg'
           alt='Triathlon - Run'
         />
       </SRLWrapper>
