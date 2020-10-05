@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/vytautas-online/static/css/main.0e56d813.chunk.css",
-    "main.js": "/vytautas-online/static/js/main.d3a9d9b8.chunk.js",
-    "main.js.map": "/vytautas-online/static/js/main.d3a9d9b8.chunk.js.map",
+    "main.js": "/vytautas-online/static/js/main.54737087.chunk.js",
+    "main.js.map": "/vytautas-online/static/js/main.54737087.chunk.js.map",
     "runtime-main.js": "/vytautas-online/static/js/runtime-main.c6c32360.js",
     "runtime-main.js.map": "/vytautas-online/static/js/runtime-main.c6c32360.js.map",
     "static/js/2.b91c821a.chunk.js": "/vytautas-online/static/js/2.b91c821a.chunk.js",
     "static/js/2.b91c821a.chunk.js.map": "/vytautas-online/static/js/2.b91c821a.chunk.js.map",
     "index.html": "/vytautas-online/index.html",
-    "precache-manifest.8a3dc7b2f9b63386f5c20fbd20974e1b.js": "/vytautas-online/precache-manifest.8a3dc7b2f9b63386f5c20fbd20974e1b.js",
+    "precache-manifest.0004774c27ec63db29a3b2a94f2ae59b.js": "/vytautas-online/precache-manifest.0004774c27ec63db29a3b2a94f2ae59b.js",
     "service-worker.js": "/vytautas-online/service-worker.js",
     "static/css/main.0e56d813.chunk.css.map": "/vytautas-online/static/css/main.0e56d813.chunk.css.map",
     "static/js/2.b91c821a.chunk.js.LICENSE.txt": "/vytautas-online/static/js/2.b91c821a.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.c6c32360.js",
     "static/js/2.b91c821a.chunk.js",
     "static/css/main.0e56d813.chunk.css",
-    "static/js/main.d3a9d9b8.chunk.js"
+    "static/js/main.54737087.chunk.js"
   ]
 }
