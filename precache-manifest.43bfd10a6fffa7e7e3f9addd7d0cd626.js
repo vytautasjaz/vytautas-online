@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c51dbc51c58d5508d24380005fb4a4ee",
+    "revision": "0e6c1e7635db5afaf62fb61d3c4a25d0",
     "url": "/vytautas-online/index.html"
   },
   {
-    "revision": "46ce1833af6c308f4a3d",
-    "url": "/vytautas-online/static/css/main.fe55e91d.chunk.css"
+    "revision": "3a47f642c1cef809b21c",
+    "url": "/vytautas-online/static/css/main.0e56d813.chunk.css"
   },
   {
     "revision": "24f7e27a9ee08d528ddd",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vytautas-online/static/js/2.b91c821a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "46ce1833af6c308f4a3d",
+    "revision": "3a47f642c1cef809b21c",
     "url": "/vytautas-online/static/js/main.d171d348.chunk.js"
   },
   {
