@@ -16,9 +16,9 @@ function MainContent() {
         alt='Javascript'
       />
       <img
-        className='portfolio--image'
-        src='../../assets/images/Projects/vinted/vinted_3.jpg'
-        alt='VintEDITED - Filter page'
+        className='portfolio--icon'
+        src='../../assets/images/calculator.jpg'
+        alt='Javascript'
       />
       <div className='main--hero'>
         <h4>Hi, I am</h4>
