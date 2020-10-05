@@ -178,10 +178,11 @@ function Portfolio() {
               <ul>
                 Features:
                 <li>Fully responsive design</li>
-                <li>Light / dark modes (Comming sonon..)</li>
-                <li>Language selecion (Comming sonon..)</li>
+                <li>Light / dark modes (Comming soon..)</li>
+                <li>Language selecion (Comming soon..)</li>
               </ul>
             </div>
+
             <div className='portfolio--item--images'>
               <img
                 className='portfolio--image'
