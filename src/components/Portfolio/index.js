@@ -195,7 +195,7 @@ function Portfolio() {
               />
               <img
                 className='portfolio--image'
-                src='../../assets/images/Projects/vytautas-online/vytautas_mobile.jpg'
+                src='../../assets/images/Projects/vytautas-online/vytautas_mobile.JPG'
                 alt='Vytautas Jazepcikas CV - Mobile page'
               />
             </div>
@@ -247,7 +247,7 @@ function Portfolio() {
             <div className='portfolio--item--images'>
               <img
                 className='portfolio--image'
-                src='../../assets/images/Projects/triathlon_counter.jpg'
+                src='../../assets/images/Projects/triathlon_calc.jpg'
                 alt='Triathlon calculator'
               />
             </div>
@@ -287,7 +287,7 @@ function Portfolio() {
             <div className='portfolio--item--images'>
               <img
                 className='portfolio--image'
-                src='../../assets/images/Projects/calculator.jpg'
+                src='../../assets/images/Projects/calc.jpg'
                 alt='Calculator'
               />
             </div>
@@ -345,23 +345,23 @@ function Portfolio() {
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/Projects/large/tampere1_large.jpg'
+          src='../../assets/images/Projects/large/tampere_museum.jpg'
           alt='Tampere art museum'
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/Projects/large/dance_large.jpg'
+          src='../../assets/images/Projects/large/dance_theater.jpg'
           alt='Dance theater'
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/Projects/large/kazakhstan_large.jpg'
+          src='../../assets/images/Projects/large/kazakhstan.jpg'
           alt='Kazakhstan development'
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/Projects/large/urban_stripes_large.jpg'
-          alt='Urban stripes'
+          src='../../assets/images/Projects/large/urban_stripes.jpg'
+          alt='Urban Stripes'
         />
 
         <h2>Graphic design / drawing</h2>
