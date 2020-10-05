@@ -17,7 +17,7 @@ function MainContent() {
       />
       <img
         className='portfolio--icon'
-        src='../../assets/images/calculator.jpg'
+        src='../../assets/images/calculator1.jpg'
         alt='Javascript'
       />
       <div className='main--hero'>
