@@ -10,6 +10,16 @@ import Portfolio from '../Portfolio';
 function MainContent() {
   return (
     <div className='main--content'>
+      <img
+        className='portfolio--icon'
+        src='../../assets/images/icons/javascript_icon.svg'
+        alt='Javascript'
+      />
+      <img
+        className='portfolio--image'
+        src='../../assets/images/projects/vinted/vinted_3.jpg'
+        alt='VintEDITED - Filter page'
+      />
       <div className='main--hero'>
         <h4>Hi, I am</h4>
         <h1>Vytautas</h1>

@@ -2,15 +2,15 @@ import React from 'react';
 import './App.scss';
 import Sidebar from './components/Sidebar';
 import MainContent from './components/MainContent';
-import SimpleReactLightbox from 'simple-react-lightbox';
+// import SimpleReactLightbox from 'simple-react-lightbox';
 
 function App() {
   return (
     <div className='App'>
-      <SimpleReactLightbox>
+      {/* <SimpleReactLightbox> */}
         <Sidebar />
         <MainContent />
-      </SimpleReactLightbox>
+      {/* </SimpleReactLightbox> */}
     </div>
   );
 }

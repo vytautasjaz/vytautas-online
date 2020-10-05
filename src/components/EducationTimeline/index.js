@@ -14,10 +14,11 @@ function EducationTimeline() {
               </h3>
               <p>
                 Studies 101 is new kind of studies as an alternative to
-                academical education. It is a 9 month course that consists of
-                two semesters. First three months are for learning basics of
-                variuos programming languages and theories (Python, PHP, JAVA,
-                SEO, Cyber Security).Second half - 6 months - are for deepening
+                academical education. It is a{' '}
+                <strong>9 month (680 hours)</strong> course that consists of two
+                semesters. First three months are for learning basics of variuos
+                programming languages and theories (Python, PHP, JAVA, SEO,
+                Cyber Security).Second half - 6 months - are for deepening
                 knowledge in one particualar subject. In my case it was
                 Front-end development.
               </p>
