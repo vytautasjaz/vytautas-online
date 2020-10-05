@@ -1,7 +1,7 @@
 {
   "name": "vytautas-online",
-  "homepage": "https://vytautasjaz.github.io/vytautas-online/",
   "version": "0.1.0",
+  "homepage": "https://vytautasjaz.github.io/vytautas-online/",
   "private": true,
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.19.26",
