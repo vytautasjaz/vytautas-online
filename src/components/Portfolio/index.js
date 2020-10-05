@@ -326,7 +326,7 @@ function Portfolio() {
         />
         <img
           className='portfolio--image'
-          src='../../assets/images/projects/large/problematika_int_2_large.jpg'
+          src='../../assets/images/Projects/large/problematika_int_2_large.jpg'
           alt='Problematika headquarters interior'
         />
         <img

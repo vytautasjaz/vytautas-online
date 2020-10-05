@@ -17,7 +17,7 @@ function MainContent() {
       />
       <img
         className='portfolio--image'
-        src='../../assets/images/projects/vinted/vinted_3.jpg'
+        src='../../assets/images/Projects/vinted/vinted_3.jpg'
         alt='VintEDITED - Filter page'
       />
       <div className='main--hero'>
