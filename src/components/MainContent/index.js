@@ -18,7 +18,7 @@ function MainContent() {
         <h2>Front-end Developer</h2>
         <Button
           color='red'
-          href='https://drive.google.com/file/d/1a2BE6tWqewGG8g-WiB23Vflcmsnjt6O1/view?usp=sharing'
+          href='https://github.com/vytautasjaz/vytautas-online/raw/master/public/assets/downloads/Vytautas_Jazepcikas_CV.pdf'
           width='w300'
         >
           Download CV (PDF)
