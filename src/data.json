@@ -201,50 +201,50 @@
         "name": "Programavimo įgūdžiai",
         "skill1": {
           "name": "Javascript",
-          "description": "Intermediate level. Familiar with most JS concepts and its implementation to web apps."
+          "description": "Vidutinio lygio žinios. Susipažinęs ir naudoju daugumą JS koncepcijų ir funkcijų web aplikacijų kūrimui."
         },
         "skill2": {
           "name": "HTML",
-          "description": "Intermediate level"
+          "description": "Aukštesnis nei vidutinis lygis."
         },
         "skill3": {
           "name": "React",
-          "description": "Intermediate level. Familiar with React Hooks, Redux, Router. Used it in school projects as well as in this website."
+          "description": "Vidutinis lygis. Susipažinęs ir naudoju ne tik paprasčiausias React koncepcijas, tačiau ir sudėtingesnes Redux, Router, Hooks."
         },
         "skill4": {
           "name": "CSS / SASS",
-          "description": "Good knowledge in CSS styling (Flexbox, CSS grid, transitions ... ). Constatntly using SASS."
+          "description": "Aukščiau nei vidutinės ir nuolat tobulinamos CSS stiliaus žinios. Nuolat naudojama (Flexbox, CSS grid, transitions ... ). Nuolat naudojamas SASS."
         },
         "skill5": {
           "name": "Vue.js",
-          "description": "Basic knowledge. I have understaning and main principles of, but lack of practice."
+          "description": "Bazinės žinios. Suprantu koncepciją ir veikimo prncipus, tačiau lengvam naudojimui trūksta praktikos."
         },
         "skill6": {
           "name": "Bootstrap",
-          "description": "Good knowledge. I have used it in some small projects and know most of the classes and how to combine them."
+          "description": "Vidutinės žinios. Naudojau Bootstrap mažesniems projektams studjų metu ir esu neblogai susipažinę su dauguma Bootstrap klasių."
         },
         "skill7": {
           "name": "Node.js",
-          "description": "Basic knowledge. I have understaning and main principles of, but lack of practice."
+          "description": "Bazinės žinios. Suprantu koncepciją ir veikimo prncipus, tačiau lengvam naudojimui trūksta praktikos."
         }
       },
       "type2": {
-        "name": "Graphic design skills",
+        "name": "Grafinio dizaini įgūdžiai",
         "skill1": {
           "name": "Adobe Photoshop",
-          "description": "Advaced Photshop user"
+          "description": "Aukšto lygio Photshop vartotojas"
         },
         "skill2": {
           "name": "Sketchup",
-          "description": "Intermediate level of modeling. Rendering with V-Ray."
+          "description": "Daugiau nei vidutinio lygio modeliavimo įgūdžiai. Vizualizacijų kūrimas su V-ray platforma."
         },
         "skill3": {
           "name": "Adobe Illustrator",
-          "description": "Intermediate level"
+          "description": "Vidutinio lygio žinios"
         },
         "skill4": {
           "name": "3D Studio Max",
-          "description": "Basic level in modeing, intermediate level of rendering with V-Ray."
+          "description": "Baziniai modeliavimo įgūdžiai. Vidutinio lygio vizualizacjų kūrimas su V-Ray platforma."
         }
       },
       "info": "(detalesnis aprašymas, 'užėjus' ant įgūdžio)"
