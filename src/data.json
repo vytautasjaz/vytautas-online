@@ -70,6 +70,106 @@
       },
       "info": "(hover skill for more info)"
     },
+    "education": {
+      "helpers": {
+        "skills": "Skills gained:",
+        "intermediate": "Intermediate:",
+        "basics": "Basics:"
+      },
+      "edu1": {
+        "title": "Front-end development - Studies 101",
+        "school": "Code Academy",
+        "year": "(2019.10 - 2020.08)",
+        "description": "Studies 101 is new kind of studies as an alternative to academical education. It is a 9 month (680 hours) course that consists of two semesters. First three months are for learning basics of variuos programming languages and theories (Python, PHP, JAVA, SEO, Cyber Security).Second half - 6 months - are for deepening knowledge in one particualar subject. In my case it was Front-end development."
+      },
+      "edu2": {
+        "title": "Architecture of Urban Complexes",
+        "school": "VGTU",
+        "year": "(2008 - 2010)",
+        "description": "Master degree in Architecture."
+      },
+      "edu3": {
+        "title": "Architecture",
+        "school": "Tampere University of Technology",
+        "year": "(2007.09 - 2007.12)",
+        "description": "Erasmus studies in Finland."
+      },
+      "edu4": {
+        "title": "Architecture",
+        "school": "VGTU",
+        "year": "(2004 - 2008)",
+        "description": "Bachelor degree in Architecture."
+      }
+    },
+    "experience": {
+      "exp1": {
+        "company": "UAB \"Archimes\"",
+        "position": "Architect ",
+        "date": "(2013.10 - 2020.08)",
+        "desc1": "- Architectural design. Creating and implementing projects of large scale offce buidings, warehouses as well as small scale private housing.",
+        "desc2": "- Interior design for restaurants, public buildings and private houses.",
+        "desc3": "- Landscape architecture. Design of public parks. - Comunication and negotiation with investors and public institutions."
+      },
+      "exp2": {
+        "company": "IĮ \"Atkulos projektai\"",
+        "position": "Architect ",
+        "date": "(2011.08 - 2013.09)",
+        "desc1": "- Urban planning. Large scale city planning - creating and implementing architectural concepts for sustainable city development.",
+        "desc2": "- Public spaces / squares design and planning"
+      },
+      "exp3": {
+        "company": "VGTU Urban Laboratory",
+        "date": "2011.07",
+        "desc1": "- Coloboration while creating international archiectural competitions in Germany, Sweeden and Kazakhstan."
+      }
+    },
+    "portfolio": {
+      "programming": {
+        "title": "Programming",
+        "features": "Features",
+        "item1": {
+          "title": "FELIX - NETFIX clone",
+          "description": "Movie database project.",
+          "feature1": "Responsive design",
+          "feature2": "User auhenticatin",
+          "feature3": "Fetching information from API",
+          "feature4": "Using router for private / public routes",
+          "feature5": "Redux for state managment",
+          "feature6": "Creating favorite item list"
+        },
+        "item2": {
+          "title": "VintEDITED - Vinted clone",
+          "description": "E-shop app made according to Vinted.lt design.",
+          "feature1": "Creating shopping cart",
+          "feature2": "Filtering items by category",
+          "feature3": "Sorting items by price, alphabetically",
+          "feature4": "Creating favorite item list",
+          "feature5": "Pagination",
+          "feature6": "Using router with params",
+          "feature7": "Fetching information from local data file"
+        },
+        "item3": {
+          "title": "Vytautas Jazepčikas online CV",
+          "description": "Personal CV / portfolio web site to represent my skills.",
+          "feature1": "Fully resposive design",
+          "feature2": "Language selecion",
+          "feature3": "Light / dark modes (Comming soon..)"
+        },
+        "item4": {
+          "title": "Triathlon calculator",
+          "description": "Web app that allows you to calculate your predicted triathlon race time accrding to your planned time or pace.",
+          "feature1": "Select between four types of races: Sprint, Olympic, 70.3 or 140.6 Ironman Triathlon",
+          "feature2": "Calculate finish time by pace of evry discipline",
+          "feature3": "Calculate different discipline pace by time"
+        },
+        "item5": {
+          "title": "Calculator",
+          "description": "Simpe Vanilla Javascript caculator. Functional programming approach."
+        }
+      },
+      "architecture": "Architectural / Urban design",
+      "graphic": "Graphic design / drawing"
+    },
     "contact": {
       "mail": "E-mail:",
       "phone": "Phone:",
@@ -148,6 +248,107 @@
         }
       },
       "info": "(detalesnis aprašymas, 'užėjus' ant įgūdžio)"
+    },
+    "education": {
+      "helpers": {
+        "skills": "Gauti įgūdžiai:",
+        "intermediate": "Vidutinio lygio:",
+        "basics": "Pagrindai:"
+      },
+      "edu1": {
+        "title": "Front-end - Studijos 101",
+        "school": "Code Academy",
+        "year": "(2019.10 - 2020.08)",
+        "description": "101 studijos tai naujo tipo stuijų programa, kaip alternatyva akadeiminiam išsilavinimui. Tai yra 9 mėnesių trukmės kursas (680 valandų), susidedantis iš dviejų semestrų. Pirmieji trys mėnesiai skiriami susipažinimui su įvairiomis programavimo kalbomis ir šių kalbų bazinių žinių mokymuisi (Python, PHP, JAVA, SEO, Cyber Security). Antrojo semestro metu pasirenkama sritis, kurioje norima specializuotis ir gilinti žinias. Mano atveju pasirinkau Front-end studijas, kurių metu išmokau programuoti Javascrpit kalba bei pagalbinėmis bibliotekomis - React, Vue.js."
+      },
+      "edu2": {
+        "title": "Urbanistinių kompleksų architektūra",
+        "school": "VGTU",
+        "year": "(2008 - 2010)",
+        "description": "Architektūros magistro laipsnis."
+      },
+      "edu3": {
+        "title": "Architektūra",
+        "school": "Tamperės Technologijos Universitetas",
+        "year": "(2007.09 - 2007.12)",
+        "description": "Erasmus studijos Suomijoje."
+      },
+      "edu4": {
+        "title": "Architektūra",
+        "school": "VGTU",
+        "year": "(2004 - 2008)",
+        "description": "Architektūros bakalauro laipsnis."
+      }
+    },
+    "experience": {
+      "exp1": {
+        "company": "UAB \"Archimes\"",
+        "position": "Architektas ",
+        "date": "(2013.10 - 2020.08)",
+        "desc1": "- Biuro pastatų, sandėlių, gyvenamųjų namų projektavimas, techninių ir darbo projektų rengimas.",
+        "desc2": "- Interjerų kavinėms, restoranamas, visuomeniniams pastatams projektavimas.",
+        "desc3": "- Kraštovaizdžio architektūros projektavimas: parkai, viešosios erdvės.",
+        "desc4": "- Proejektų derinimas su institucijomis ir užsakovais."
+      },
+      "exp2": {
+        "company": "IĮ \"Atkulos projektai\"",
+        "position": "Architektas ",
+        "date": "(2011.08 - 2013.09)",
+        "desc1": "- Urbanistinis planavimas. Miestų bendrųjų planų architektūrinės dalies rengimas, teritoijų detaliųjų planų rengimas.",
+        "desc2": "- Visuomeninių erdvių projektavimas"
+      },
+      "exp3": {
+        "company": "VGTU Urbanistikos Labortorija",
+        "date": "2011.07",
+        "desc1": "- Bendradarbiaujant su VGTU Urbanistikos laboratorija parengti darbai tarptautiniams architektūriniams konkursams Vokietijoje, Švedijoje ir Kazachstane."
+      }
+    },
+    "portfolio": {
+      "programming": {
+        "title": "Programavimas",
+        "features": "Savybės",
+        "item1": {
+          "title": "FELIX - NETFIX klonas",
+          "description": "Filmų peržiūros platforma.",
+          "feature1": "Ekrano dydžiui jautrus (resposive) dizainas",
+          "feature2": "Vartotojo autorizacijos funkcija",
+          "feature3": "Duomenų gavimas iš API serverio",
+          "feature4": "React Router panaudojimas sukuriant privačius ir viešus svetainės puslapius",
+          "feature5": "Redux naudojimas duomenų tvarkymui",
+          "feature6": "Mėgstamiausių filmų pažymėjimo galimybė"
+        },
+        "item2": {
+          "title": "VintEDITED - Vinted clone",
+          "description": "E-parduotuvės aplikacija, sukurta Vinted.lt dizaino pagrindu.",
+          "feature1": "Pirkinių krepšelio sudarymo galimybė",
+          "feature2": "Prekių filtravimas pagal kategorijas",
+          "feature3": "Prekių rūšiavimas pagal kainą arba abėcėlės tvarka",
+          "feature4": "Patinkančių prekių sužymėjimo ir sąrašo sudarymo galimybė",
+          "feature5": "Puslapiavimas",
+          "feature6": "Routerio naudojimas su 'params' savybe",
+          "feature7": "Duomenų gavimas iš vietinio failo diske"
+        },
+        "item3": {
+          "title": "Vytauto Jazepčiko CV svetainė",
+          "description": "Asmeninė svetainė, pristatyti savo įgūdžius ir CV.",
+          "feature1": "Ekrano dydžiui jautrus (resposive) dizainas",
+          "feature2": "Kalbos pasirinkimo galimybė",
+          "feature3": "Šviesaus/ tamsaus diziano pasirinkimo galimybė (Dar kuriama..)"
+        },
+        "item4": {
+          "title": "Triatlono skaičiuoklė",
+          "description": "Aplikacija skirta apskaičiuoti planuojamą triatlono varžybų laiką, priklausomai nuo jūsų greičio ar atskirų rungčių įveikimo laiko.",
+          "feature1": "Galimyė pasirinkti vieną iš keturių pagrindinių trialono rungčių: Sprinto, Olympinę, Pusės Ironamno ar Pilno Ironmano distanviją",
+          "feature2": "Laiko skaičiavimas pagal disciplinų įveikimo greitį (tempą)",
+          "feature3": "Greičio (tempo) skaičiavimas pagal disciplinų įveikimo laiką"
+        },
+        "item5": {
+          "title": "Skaičiuotuvas",
+          "description": "Vanilla Javascript pagrindu parašytas skaičiuotuvas. Naudojamas funkcinis programavimo modelis."
+        }
+      },
+      "architecture": "Architektūra / Urbanistika",
+      "graphic": "Grafinis dizainas / Piešimas"
     },
     "contact": {
       "mail": "E-paštas:",

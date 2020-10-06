@@ -2,16 +2,19 @@ import React from 'react';
 import './index.scss';
 import { SRLWrapper } from 'simple-react-lightbox';
 
-function Portfolio() {
+//Data import
+import data from '../../data.json';
+
+function Portfolio({ lang }) {
   return (
     <div className='portfolio--container'>
       <SRLWrapper>
-        <h2>Programming</h2>
+        <h2>{data[lang].portfolio.programming.title}</h2>
         <div className='portfolio--item'>
           <div className='portfolio--item--text'>
             <div>
-              <h3>FELIX - NETFIX clone</h3>
-              <p>Movie database project.</p>
+              <h3>{data[lang].portfolio.programming.item1.title}</h3>
+              <p>{data[lang].portfolio.programming.item1.description}</p>
             </div>
           </div>
           <div className='portfolio--item--wrap'>
@@ -34,13 +37,13 @@ function Portfolio() {
             </div>
             <div className='portfolio--item--features'>
               <ul>
-                Features:
-                <li>Responsive design</li>
-                <li>User auhenticatin</li>
-                <li>Fetching information from API</li>
-                <li>Using router for private / public routes</li>
-                <li>Redux for state managment</li>
-                <li>Creating favorite item list</li>
+                {data[lang].portfolio.programming.features}:
+                <li>{data[lang].portfolio.programming.item1.feature1}</li>
+                <li>{data[lang].portfolio.programming.item1.feature2}</li>
+                <li>{data[lang].portfolio.programming.item1.feature3}</li>
+                <li>{data[lang].portfolio.programming.item1.feature4}</li>
+                <li>{data[lang].portfolio.programming.item1.feature5}</li>
+                <li>{data[lang].portfolio.programming.item1.feature6}</li>
               </ul>
             </div>
             <div className='portfolio--item--images'>
@@ -77,8 +80,8 @@ function Portfolio() {
         <div className='portfolio--item'>
           <div className='portfolio--item--text'>
             <div>
-              <h3>VintEDITED - Vinted clone</h3>
-              <p>E-shop app made according to Vinted.lt design</p>
+              <h3>{data[lang].portfolio.programming.item2.title}</h3>
+              <p>{data[lang].portfolio.programming.item2.description}</p>
             </div>
           </div>
           <div className='portfolio--item--wrap'>
@@ -101,14 +104,14 @@ function Portfolio() {
             </div>
             <div className='portfolio--item--features'>
               <ul>
-                Features:
-                <li>Creating shopping cart</li>
-                <li>Filtering items by category</li>
-                <li>Sorting items by price, alphabetically</li>
-                <li>Creating favorite item list</li>
-                <li>Pagination</li>
-                <li>Using router with params</li>
-                <li>Fetching information from local data file</li>
+                {data[lang].portfolio.programming.features}:
+                <li>{data[lang].portfolio.programming.item2.feature1}</li>
+                <li>{data[lang].portfolio.programming.item2.feature2}</li>
+                <li>{data[lang].portfolio.programming.item2.feature3}</li>
+                <li>{data[lang].portfolio.programming.item2.feature4}</li>
+                <li>{data[lang].portfolio.programming.item2.feature5}</li>
+                <li>{data[lang].portfolio.programming.item2.feature6}</li>
+                <li>{data[lang].portfolio.programming.item2.feature7}</li>
               </ul>
             </div>
             <div className='portfolio--item--images'>
@@ -152,8 +155,8 @@ function Portfolio() {
         <div className='portfolio--item'>
           <div className='portfolio--item--text'>
             <div>
-              <h3>Vytautas Jazepcikas online CV</h3>
-              <p>Personal CV / portfolio web site to represent my skills.</p>
+              <h3>{data[lang].portfolio.programming.item3.title}</h3>
+              <p>{data[lang].portfolio.programming.item3.description}</p>
             </div>
           </div>
           <div className='portfolio--item--wrap'>
@@ -176,10 +179,10 @@ function Portfolio() {
             </div>
             <div className='portfolio--item--features'>
               <ul>
-                Features:
-                <li>Fully responsive design</li>
-                <li>Light / dark modes (Comming soon..)</li>
-                <li>Language selecion (Comming soon..)</li>
+                {data[lang].portfolio.programming.features}:
+                <li>{data[lang].portfolio.programming.item3.feature1}</li>
+                <li>{data[lang].portfolio.programming.item3.feature2}</li>
+                <li>{data[lang].portfolio.programming.item3.feature3}</li>
               </ul>
             </div>
 
@@ -219,11 +222,8 @@ function Portfolio() {
         <div className='portfolio--item'>
           <div className='portfolio--item--text'>
             <div>
-              <h3>Triathlon calculator</h3>
-              <p>
-                Web app that allows you to calculate your predicted triathlon
-                race time accrding to your planned time or pace.{' '}
-              </p>
+            <h3>{data[lang].portfolio.programming.item4.title}</h3>
+              <p>{data[lang].portfolio.programming.item4.description}</p>
             </div>
           </div>
           <div className='portfolio--item--wrap'>
@@ -235,14 +235,11 @@ function Portfolio() {
               />
             </div>
             <div className='portfolio--item--features'>
-              <ul>
-                Features:
-                <li>
-                  Select between four types of races: Sprint, Olympic, 70.3 or
-                  140.6 Ironman Triathlon
-                </li>
-                <li>Calculate finish time by pace of evry discipline</li>
-                <li>Calculate different discipline pace by time</li>
+            <ul>
+                {data[lang].portfolio.programming.features}:
+                <li>{data[lang].portfolio.programming.item4.feature1}</li>
+                <li>{data[lang].portfolio.programming.item4.feature2}</li>
+                <li>{data[lang].portfolio.programming.item4.feature3}</li>
               </ul>
             </div>
             <div className='portfolio--item--images'>
@@ -270,11 +267,8 @@ function Portfolio() {
         <div className='portfolio--item'>
           <div className='portfolio--item--text'>
             <div>
-              <h3>Calculator</h3>
-              <p>
-                Simpe Vanilla Javascript caculator. Functional programming
-                approach.
-              </p>
+            <h3>{data[lang].portfolio.programming.item5.title}</h3>
+              <p>{data[lang].portfolio.programming.item5.description}</p>
             </div>
           </div>
           <div className='portfolio--item--wrap'>
@@ -307,7 +301,7 @@ function Portfolio() {
           </div>
         </div>
 
-        <h2>Architectural / Urban design</h2>
+        <h2>{data[lang].portfolio.architecture}</h2>
 
         <img
           className='portfolio--image'
@@ -365,7 +359,7 @@ function Portfolio() {
           alt='Urban Stripes'
         />
 
-        <h2>Graphic design / drawing</h2>
+        <h2>{data[lang].portfolio.graphic}</h2>
 
         <img
           className='portfolio--image'

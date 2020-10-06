@@ -1,57 +1,49 @@
 import React from 'react';
 import './index.scss';
 
-function ExperienceTimeline() {
+//Data import
+import data from '../../data.json';
+
+function ExperienceTimeline({ lang }) {
   return (
     <>
       <section className='exp--timeline'>
         <ul>
           <li>
             <div className='exp--experience'>
-              <h2>UAB "Archimes"</h2>
+              <h2>{data[lang].experience.exp1.company}</h2>
               <h3>
-                Architect <time> (2013.10 - 2020.08)</time>
+                {data[lang].experience.exp1.position}{' '}
+                <time> {data[lang].experience.exp1.date}</time>
               </h3>
               <p>
-                - Architectural design. Creating and implementing projects of
-                large scale offce buidings, warehouses as well as small scale
-                private housing.
-                <br />- Interior design for restaurants, public buildings and
-                private houses.
-                <br />- Landscape architecture. Design of public parks. -
-                Comunication and negotiation with investors and public
-                institutions.
-              </p>
-              <p>
-                Introduction to other programming languages: PHP, JAVA, Python.
+                {data[lang].experience.exp1.desc1}
+                <br /> {data[lang].experience.exp1.desc2}
+                <br /> {data[lang].experience.exp1.desc3}
+                <br /> {data[lang].experience.exp1.desc4}
               </p>
             </div>
           </li>
           <li>
             <div className='exp--experience'>
-              <h2>IĮ "Atkulos projektai"</h2>
+              <h2>{data[lang].experience.exp2.company}</h2>
               <h3>
-                Architect <time> (2011.08 - 2013.09)</time>
+                {data[lang].experience.exp2.position}{' '}
+                <time> {data[lang].experience.exp2.date}</time>
               </h3>
               <p>
-                - Urban planning. Large scale city planning - creating and
-                implementing architectural concepts for sustainable city
-                development.
-                <br />- Public spaces / squares design and planning
-              </p>
-              <p>
-                Introduction to other programming languages: PHP, JAVA, Python.
+                {data[lang].experience.exp2.desc1}
+                <br /> {data[lang].experience.exp2.desc2}
               </p>
             </div>
           </li>
           <li>
             <div className='exp--experience'>
-              <h2>VGTU Urban Laboratory</h2>
+              <h2>{data[lang].experience.exp3.company}</h2>
               <h3>
-                <time> 2011.07</time>
+                <time> {data[lang].experience.exp3.date}</time>
               </h3>
-              - Coloboration while creating international archiectural
-              competitions in Sweeden and Kazakhstan.
+              {data[lang].experience.exp3.desc1}
             </div>
           </li>
         </ul>

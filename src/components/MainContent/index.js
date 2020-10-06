@@ -7,6 +7,8 @@ import './index.scss';
 import EducationTimeline from '../EducationTimeline';
 import ExperienceTimeline from '../ExperienceTimeline';
 import Portfolio from '../Portfolio';
+
+//Data import
 import data from '../../data.json';
 
 function MainContent({ lang, setLang }) {
@@ -118,15 +120,15 @@ function MainContent({ lang, setLang }) {
         </div>
         <div className='main--container' id='education'>
           <h1>{data[lang].menu.item_3}</h1>
-          <EducationTimeline />
+          <EducationTimeline lang={lang} />
         </div>
         <div className='main--container' id='experience'>
           <h1>{data[lang].menu.item_4}</h1>
-          <ExperienceTimeline />
+          <ExperienceTimeline lang = {lang}/>
         </div>
         <div className='main--container' id='portfolio'>
           <h1>{data[lang].menu.item_5}</h1>
-          <Portfolio />
+          <Portfolio lang = {lang}/>
         </div>
         <div className='main--container' id='contact'>
           <h1>{data[lang].menu.item_6}</h1>
