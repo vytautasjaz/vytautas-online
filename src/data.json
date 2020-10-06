@@ -1,0 +1,160 @@
+{
+  "en": {
+    "menu": {
+      "item_1": "About Me",
+      "item_2": "Skills",
+      "item_3": "Education",
+      "item_4": "Experience",
+      "item_5": "Portfolio",
+      "item_6": "Contact Me"
+    },
+    "header": {
+      "greeting": "Hi, I am",
+      "profession": "Front-end Developer",
+      "cv": "Download CV (PDF)"
+    },
+    "about": {
+      "part1": "Hi, I am Vytautas Jazepčikas, a junior Front-end develper with a knowledge in Javascript as my primary programming language combined with React library. Even though I have strong backgroud in architecture and urban design, last year I decided to shake my world and make some changes. This decission led to Code Academy where I spend almost one year while developing my skills as Front-end programmer.",
+      "part2": "Even though I am quite new in IT and programming, it is my new path of life and I am very happy that I found it. The dynamics and inovations in IT makes it very enjoyable and attractive. The curriosity of innovation drags to learn something new eveyday and it motivates to move forward without any stops."
+    },
+    "skills": {
+      "type1": {
+        "name": "Programming skills",
+        "skill1": {
+          "name": "Javascript",
+          "description": "Intermediate level. Familiar with most JS concepts and its implementation to web apps."
+        },
+        "skill2": {
+          "name": "HTML",
+          "description": "Intermediate level"
+        },
+        "skill3": {
+          "name": "React",
+          "description": "Intermediate level. Familiar with React Hooks, Redux, Router. Used it in school projects as well as in this website."
+        },
+        "skill4": {
+          "name": "CSS / SASS",
+          "description": "Good knowledge in CSS styling (Flexbox, CSS grid, transitions ... ). Constatntly using SASS."
+        },
+        "skill5": {
+          "name": "Vue.js",
+          "description": "Basic knowledge. I have understaning and main principles of, but lack of practice."
+        },
+        "skill6": {
+          "name": "Bootstrap",
+          "description": "Good knowledge. I have used it in some small projects and know most of the classes and how to combine them."
+        },
+        "skill7": {
+          "name": "Node.js",
+          "description": "Basic knowledge. I have understaning and main principles of, but lack of practice."
+        }
+      },
+      "type2": {
+        "name": "Graphic design skills",
+        "skill1": {
+          "name": "Adobe Photoshop",
+          "description": "Advaced Photshop user"
+        },
+        "skill2": {
+          "name": "Sketchup",
+          "description": "Intermediate level of modeling. Rendering with V-Ray."
+        },
+        "skill3": {
+          "name": "Adobe Illustrator",
+          "description": "Intermediate level"
+        },
+        "skill4": {
+          "name": "3D Studio Max",
+          "description": "Basic level in modeing, intermediate level of rendering with V-Ray."
+        }
+      },
+      "info": "(hover skill for more info)"
+    },
+    "contact": {
+      "mail": "E-mail:",
+      "phone": "Phone:",
+      "name": "Name:",
+      "message": "Message:",
+      "send": "Send"
+    }
+  },
+  "lt": {
+    "menu": {
+      "item_1": "Apie mane",
+      "item_2": "Įgūdžiai",
+      "item_3": "Išsilavinimas",
+      "item_4": "Darbo patirtis",
+      "item_5": "Portfolio",
+      "item_6": "Susisiekite"
+    },
+    "header": {
+      "greeting": "Sveiki, aš",
+      "profession": "Front-end programuotojas",
+      "cv": "Atsisiųskite CV (PDF)"
+    },
+    "about": {
+      "part1": "Sveiki, esu Vytautas Jazepčikas, pradedantysis Front-end programuotojas. Daugiausiai programuoju Javascrpit programavimo kalba kartu su React biblioteka, tačiau turiu ir Node.js, Vue.js pagrindus. Man profesija ilgą laiką buvo architektūra ir urbanistinis planavimas, tačiau praėjusiais metais pribrendau pokyčiams ir nusprendžiau išmokti programuoti ir įstojau į Code Academy. Šioje akademijoje baigiau 101 programavimo studijas, kur specializavausi kaip Frontend programuotojas.",
+      "part2": "Nors IT sferoje esu gan neseniai, jau spėjau pamilti programavimą ir labai džiaugiuosi atradęs naują gyvenimo kelią. Modernių technologijų inovacijos ir dinamiškumas, daro IT sferą labai patrauklia ir įdomia ieškantiems naujų iššūkių. Būtent tai ir neleidžia snausti, o ragina mane kiekvieną dieną išmokti ką nors naujo ir niekad nesustoti."
+    },
+    "skills": {
+      "type1": {
+        "name": "Programavimo įgūdžiai",
+        "skill1": {
+          "name": "Javascript",
+          "description": "Intermediate level. Familiar with most JS concepts and its implementation to web apps."
+        },
+        "skill2": {
+          "name": "HTML",
+          "description": "Intermediate level"
+        },
+        "skill3": {
+          "name": "React",
+          "description": "Intermediate level. Familiar with React Hooks, Redux, Router. Used it in school projects as well as in this website."
+        },
+        "skill4": {
+          "name": "CSS / SASS",
+          "description": "Good knowledge in CSS styling (Flexbox, CSS grid, transitions ... ). Constatntly using SASS."
+        },
+        "skill5": {
+          "name": "Vue.js",
+          "description": "Basic knowledge. I have understaning and main principles of, but lack of practice."
+        },
+        "skill6": {
+          "name": "Bootstrap",
+          "description": "Good knowledge. I have used it in some small projects and know most of the classes and how to combine them."
+        },
+        "skill7": {
+          "name": "Node.js",
+          "description": "Basic knowledge. I have understaning and main principles of, but lack of practice."
+        }
+      },
+      "type2": {
+        "name": "Graphic design skills",
+        "skill1": {
+          "name": "Adobe Photoshop",
+          "description": "Advaced Photshop user"
+        },
+        "skill2": {
+          "name": "Sketchup",
+          "description": "Intermediate level of modeling. Rendering with V-Ray."
+        },
+        "skill3": {
+          "name": "Adobe Illustrator",
+          "description": "Intermediate level"
+        },
+        "skill4": {
+          "name": "3D Studio Max",
+          "description": "Basic level in modeing, intermediate level of rendering with V-Ray."
+        }
+      },
+      "info": "(detalesnis aprašymas, 'užėjus' ant įgūdžio)"
+    },
+    "contact": {
+      "mail": "E-paštas:",
+      "phone": "Telefonas",
+      "name": "Vardas:",
+      "message": "Žinutė:",
+      "send": "Siųsti"
+    }
+  }
+}

@@ -19,10 +19,12 @@
   background: linear-gradient(180deg, rgb(28, 57, 102) 0%, rgb(4, 20, 43) 100%);
   position: fixed;
   &--menu {
+    width: 200px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    // align-items: center;
     height: 100%;
     li {
       color: $light;

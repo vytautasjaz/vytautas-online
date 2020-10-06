@@ -1,36 +1,40 @@
 import React from 'react';
-// import LanguageSelector from '../LanguageSelector';
+import LanguageSelector from '../LanguageSelector/LanguageSelector';
 import './index.scss';
 
-function Sidebar() {
+import data from '../../data.json';
+
+function Sidebar({ lang, setLang }) {
   return (
     <div className='sidebar'>
       <div className='sidebar--menu'>
-        <div class='lines'>
-          <div class='line'></div>
-          <div class='line'></div>
-          <div class='line'></div>
-        </div>
+        {/* <div class='lines'>
+          <div className='line'></div>
+          <div className='line'></div>
+          <div className='line'></div>
+        </div> */}
         <ul>
           <li>
-            <a href='#about'>About</a>
+            <a href='#about'>{data[lang].menu.item_1}</a>
           </li>
           <li>
-            <a href='#skills'>Skills</a>
+            <a href='#skills'>{data[lang].menu.item_2}</a>
           </li>
           <li>
-            <a href='#education'>Education</a>
+            <a href='#education'>{data[lang].menu.item_3}</a>
           </li>
           <li>
-            <a href='#experience'>Experience</a>
+            <a href='#experience'>{data[lang].menu.item_4}</a>
           </li>
           <li>
-            <a href='#portfolio'>Portfolio</a>
+            <a href='#portfolio'>{data[lang].menu.item_5}</a>
           </li>
           <li>
-            <a href='#contact'>Contact me</a>
+            <a href='#contact'>{data[lang].menu.item_6}</a>
           </li>
-          {/* <li> <LanguageSelector />  </li>*/}
+          <li>
+            <LanguageSelector lang={lang} setLang={setLang} />
+          </li>
         </ul>
       </div>
       <div className='sidebar--social'>

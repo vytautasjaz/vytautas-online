@@ -1,0 +1,12 @@
+.language {
+  margin-top: 40px;
+  img {
+    height: 15px;
+    margin-right: 10px;
+  }
+  &--greyscale {
+    transition: 0.5s;
+    filter: opacity(40%);
+    cursor: pointer;
+  }
+}
