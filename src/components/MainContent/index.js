@@ -124,17 +124,17 @@ function MainContent({ lang, setLang }) {
         </div>
         <div className='main--container' id='experience'>
           <h1>{data[lang].menu.item_4}</h1>
-          <ExperienceTimeline lang = {lang}/>
+          <ExperienceTimeline lang={lang} />
         </div>
         <div className='main--container' id='portfolio'>
           <h1>{data[lang].menu.item_5}</h1>
-          <Portfolio lang = {lang}/>
+          <Portfolio lang={lang} />
         </div>
         <div className='main--container' id='contact'>
           <h1>{data[lang].menu.item_6}</h1>
           <p>
             <strong>{data[lang].contact.mail}</strong>{' '}
-            <a href='mailto:vytautasjaz@gmail.com'>vtauatasjaz@gmail.com</a>{' '}
+            <a href='mailto:vytautasjaz@gmail.com'>vytautasjaz@gmail.com</a>{' '}
             <br />
             <strong>{data[lang].contact.phone}</strong> +370 672 14684
             <br />

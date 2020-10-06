@@ -14,8 +14,8 @@
       "cv": "Download CV (PDF)"
     },
     "about": {
-      "part1": "Hi, I am Vytautas Jazepčikas, a junior Front-end develper with a knowledge in Javascript as my primary programming language combined with React library. Even though I have strong backgroud in architecture and urban design, last year I decided to shake my world and make some changes. This decission led to Code Academy where I spend almost one year while developing my skills as Front-end programmer.",
-      "part2": "Even though I am quite new in IT and programming, it is my new path of life and I am very happy that I found it. The dynamics and inovations in IT makes it very enjoyable and attractive. The curriosity of innovation drags to learn something new eveyday and it motivates to move forward without any stops."
+      "part1": "Hi, I am Vytautas Jazepčikas, a junior Front-end developer with a knowledge in Javascript as my primary programming language combined with React library. Even though I have strong backgroud in architecture and urban design, last year I decided to shake my world and make some changes. This decission led to Code Academy where I spend almost one year while developing my skills as Front-end programmer.",
+      "part2": "Even though I am quite new in IT and programming, it is my new path of life and I am very happy that I found it. The dynamics and inovations in IT makes it very enjoyable and attractive. The curiosity of innovation drags to learn something new everyday and it motivates to move forward without any stops."
     },
     "skills": {
       "type1": {
@@ -80,7 +80,7 @@
         "title": "Front-end development - Studies 101",
         "school": "Code Academy",
         "year": "(2019.10 - 2020.08)",
-        "description": "Studies 101 is new kind of studies as an alternative to academical education. It is a 9 month (680 hours) course that consists of two semesters. First three months are for learning basics of variuos programming languages and theories (Python, PHP, JAVA, SEO, Cyber Security).Second half - 6 months - are for deepening knowledge in one particualar subject. In my case it was Front-end development."
+        "description": "Studies 101 is new kind of studies as an alternative to academical education. It is a 9 month (680 hours) course that consists of two semesters. First three months are for learning basics of various programming languages and theories (Python, PHP, JAVA, SEO, Cyber Security).Second half - 6 months - are for deepening knowledge in one particular subject. In my case it was Front-end development."
       },
       "edu2": {
         "title": "Architecture of Urban Complexes",
@@ -106,21 +106,21 @@
         "company": "UAB \"Archimes\"",
         "position": "Architect ",
         "date": "(2013.10 - 2020.08)",
-        "desc1": "- Architectural design. Creating and implementing projects of large scale offce buidings, warehouses as well as small scale private housing.",
+        "desc1": "- Architectural design. Creating and implementing projects of large scale office buidings, warehouses as well as small scale private housing.",
         "desc2": "- Interior design for restaurants, public buildings and private houses.",
-        "desc3": "- Landscape architecture. Design of public parks. - Comunication and negotiation with investors and public institutions."
+        "desc3": "- Landscape architecture. Design of public parks. - Communication and negotiation with investors and public institutions."
       },
       "exp2": {
         "company": "IĮ \"Atkulos projektai\"",
         "position": "Architect ",
         "date": "(2011.08 - 2013.09)",
         "desc1": "- Urban planning. Large scale city planning - creating and implementing architectural concepts for sustainable city development.",
-        "desc2": "- Public spaces / squares design and planning"
+        "desc2": "- Public spaces / squares design and planning."
       },
       "exp3": {
         "company": "VGTU Urban Laboratory",
         "date": "2011.07",
-        "desc1": "- Coloboration while creating international archiectural competitions in Germany, Sweeden and Kazakhstan."
+        "desc1": "- Coloboration while creating international architectural competitions in Germany, Sweden and Kazakhstan."
       }
     },
     "portfolio": {
@@ -128,13 +128,13 @@
         "title": "Programming",
         "features": "Features",
         "item1": {
-          "title": "FELIX - NETFIX clone",
+          "title": "FELIX - NETFLIX clone",
           "description": "Movie database project.",
           "feature1": "Responsive design",
-          "feature2": "User auhenticatin",
+          "feature2": "User auhentication",
           "feature3": "Fetching information from API",
           "feature4": "Using router for private / public routes",
-          "feature5": "Redux for state managment",
+          "feature5": "Redux for state management",
           "feature6": "Creating favorite item list"
         },
         "item2": {
@@ -157,7 +157,7 @@
         },
         "item4": {
           "title": "Triathlon calculator",
-          "description": "Web app that allows you to calculate your predicted triathlon race time accrding to your planned time or pace.",
+          "description": "Web app that allows to calculate your predicted triathlon race time according to your planned time or pace.",
           "feature1": "Select between four types of races: Sprint, Olympic, 70.3 or 140.6 Ironman Triathlon",
           "feature2": "Calculate finish time by pace of evry discipline",
           "feature3": "Calculate different discipline pace by time"
@@ -308,7 +308,7 @@
         "title": "Programavimas",
         "features": "Savybės",
         "item1": {
-          "title": "FELIX - NETFIX klonas",
+          "title": "FELIX - NETFLIX klonas",
           "description": "Filmų peržiūros platforma.",
           "feature1": "Ekrano dydžiui jautrus (resposive) dizainas",
           "feature2": "Vartotojo autorizacijos funkcija",
